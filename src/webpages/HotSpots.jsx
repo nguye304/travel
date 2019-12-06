@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {CountryMap} from '../components/CountryMap'
+import {CountryMap} from '../components/CountryMap';
 import '../styles/WebMap.css';
 
 export class HotSpots extends React.Component{
@@ -22,7 +22,7 @@ export class HotSpots extends React.Component{
             <div>
                 <h1>HotSpots</h1>
                 <CountryMap country ={this.props.country}></CountryMap>
-    
+               
             </div>
         )
     }
